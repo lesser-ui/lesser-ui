@@ -1,46 +1,26 @@
 # Lesser-UI
-
+> **Dev-Ready UI, Powered by Open Source**
+>
+> 개발자들이 빠르게 사용 가능한 오픈소스 UI 구성 요소들을 공유하고, 검색하고, 확장할 수 있는 플랫폼.
+> 
 by pvvng
 
 2025.05.23 ~ 진행중
 
-<<<<<<< docs-2
-=======
----
 
->>>>>>> main
+
 ## Live
 
 [배포 링크](https://lesser-ui.vercel.app/)
 
 ## GitHub Repo
 
-<<<<<<< docs-2
 [링크](https://github.com/lesser-ui/lesser-ui)
 
 ## Dev Log
 
 [링크](https://www.notion.so/Lesser-UI-21190e4a626680e988dec6b4ff958692?pvs=21)
 
-<aside>
-=======
-[link](https://github.com/lesser-ui/lesser-ui)
-
-## Dev Log
-
-[link](https://www.notion.so/Lesser-UI-21190e4a626680e988dec6b4ff958692?pvs=21)
-
----
-
-<aside>
-💬
->>>>>>> main
-
-**Dev-Ready UI, Powered by Open Source**
-
-개발자들이 빠르게 사용 가능한 오픈소스 UI 구성 요소들을 공유하고, 검색하고, 확장할 수 있는 플랫폼.
-
-</aside>
 
 ## 주요 기능
 
@@ -69,11 +49,7 @@ by pvvng
   - React 컴포넌트 코드 export
   - Figma export (향후 지원 예정)
 
-<<<<<<< docs-2
-=======
----
 
->>>>>>> main
 ## 기술 스택
 
 | Programming Languages | JavaScript, TypeScript |
@@ -83,13 +59,12 @@ by pvvng
 | Databases             | Supabase               |
 | Version Control       | Git                    |
 | Deployment Tools      | Vercel                 |
-<<<<<<< docs-2
+
 
 ## 🤝 기여하기
 
-    1.	이슈 확인 또는 새 이슈 등록
-    2.	포크 후 브랜치 생성 (feat/my-feature)
-    3.	코드 작성 및 커밋
-    4.	PR 제출 🎉
-=======
->>>>>>> main
+  1.	이슈 확인 또는 새 이슈 등록
+  2.	포크 후 브랜치 생성 (feat/my-feature)
+  3.	코드 작성 및 커밋
+  4.	PR 제출 🎉
+
