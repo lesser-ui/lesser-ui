@@ -8,7 +8,7 @@ export async function GET() {
 User-agent: *
 Disallow: /auth/*
 Disallow: */edit
-Disallow: element/create
+Disallow: /element/create
 Disallow: /login
 Sitemap: ${process.env.APP_URL || "http://localhost:3000"}/sitemap.xml
     `.trim()
