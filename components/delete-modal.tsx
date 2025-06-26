@@ -44,7 +44,7 @@ export default function DeleteModal({
         <div>
           <FontAwesomeIcon icon={faTriangleExclamation} />
           <p>
-            삭제된 {content[type]}은
+            삭제된 {content[type]}은{" "}
             <strong className="underline underline-offset-2">
               복구할 수 없습니다.
             </strong>
