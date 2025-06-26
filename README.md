@@ -4,12 +4,18 @@ by pvvng
 
 2025.05.23 ~ 진행중
 
+<<<<<<< docs-2
+=======
+---
+
+>>>>>>> main
 ## Live
 
 [배포 링크](https://lesser-ui.vercel.app/)
 
 ## GitHub Repo
 
+<<<<<<< docs-2
 [링크](https://github.com/lesser-ui/lesser-ui)
 
 ## Dev Log
@@ -17,6 +23,18 @@ by pvvng
 [링크](https://www.notion.so/Lesser-UI-21190e4a626680e988dec6b4ff958692?pvs=21)
 
 <aside>
+=======
+[link](https://github.com/lesser-ui/lesser-ui)
+
+## Dev Log
+
+[link](https://www.notion.so/Lesser-UI-21190e4a626680e988dec6b4ff958692?pvs=21)
+
+---
+
+<aside>
+💬
+>>>>>>> main
 
 **Dev-Ready UI, Powered by Open Source**
 
@@ -51,6 +69,11 @@ by pvvng
   - React 컴포넌트 코드 export
   - Figma export (향후 지원 예정)
 
+<<<<<<< docs-2
+=======
+---
+
+>>>>>>> main
 ## 기술 스택
 
 | Programming Languages | JavaScript, TypeScript |
@@ -60,6 +83,7 @@ by pvvng
 | Databases             | Supabase               |
 | Version Control       | Git                    |
 | Deployment Tools      | Vercel                 |
+<<<<<<< docs-2
 
 ## 🤝 기여하기
 
@@ -67,3 +91,5 @@ by pvvng
     2.	포크 후 브랜치 생성 (feat/my-feature)
     3.	코드 작성 및 커밋
     4.	PR 제출 🎉
+=======
+>>>>>>> main
