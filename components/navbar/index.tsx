@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <nav
       id="header"
-      className="bg-neutral-900 w-full h-16 sticky top-0 left-0
+      className="bg-neutral-900/80 backdrop-blur w-full h-16 sticky top-0 left-0
       flex justify-between items-center p-3 z-9999"
     >
       <section className="flex gap-5 items-center">

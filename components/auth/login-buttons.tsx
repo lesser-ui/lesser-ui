@@ -12,7 +12,7 @@ export default function SocialLoginButtons() {
   /** supabase oauth login function */
   const handleLogin = async (provider: Provider) => {
     const supabase = createClient();
-    const appUrl = process.env.NEXT_PUBLIC_APP_URL || "";
+    const appUrl = process.env.NEXT_PUBLIC_APP_URL!;
 
     const { error } = await supabase.auth.signInWithOAuth({
       provider,

@@ -69,10 +69,10 @@ function BgExplainModal({
     >
       <div
         ref={containerRef}
-        className="w-full h-full rounded-2xl bg-white overflow-auto text-black"
+        className="w-full h-full rounded-2xl bg-neutral-900 overflow-auto"
         onClick={(e) => e.stopPropagation()} // 모달 내부 클릭 시 이벤트 전파 방지
       >
-        <header className="sticky top-0 left-0 w-full z-1 bg-white py-3 px-5 flex justify-between items-center">
+        <header className="sticky top-0 left-0 w-full z-1 bg-neutral-900/80 backdrop-blur py-3 px-8 flex justify-between items-center">
           <p id="modal-title" className="text-lg font-semibold">
             배경 정보
           </p>
@@ -85,11 +85,11 @@ function BgExplainModal({
             <FontAwesomeIcon icon={faX} className="text-lg" />
           </button>
         </header>
-        <section className="p-5">
-          <div className="w-full h-84 p-5 relative rounded-2xl overflow-hidden shadow-xl">
+        <section className="p-8">
+          <div className="w-full h-84 relative rounded-2xl overflow-hidden shadow-xl">
             <Image
               src={`/background/${name}.webp`}
-              alt="bg"
+              alt={name}
               fill
               className="object-cover object-center"
               draggable={false}

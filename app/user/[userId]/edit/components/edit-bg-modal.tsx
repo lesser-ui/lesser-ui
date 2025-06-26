@@ -25,10 +25,10 @@ export default function EditBackgroundModal({
     >
       <div
         ref={containerRef}
-        className="bg-white text-black rounded-2xl w-full h-full overflow-auto"
+        className="bg-neutral-900 rounded-2xl w-full h-full overflow-auto"
         onClick={(e) => e.stopPropagation()} // 모달 내부 클릭 시 이벤트 전파 방지
       >
-        <header className="sticky top-0 left-0 w-full z-1 bg-white py-3 px-5 flex justify-between items-center">
+        <header className="sticky top-0 left-0 w-full z-1 bg-neutral-900/80 backdrop-blur py-3 px-8 flex justify-between items-center">
           <p id="modal-title" className="text-lg font-semibold">
             보유한 배경
           </p>
@@ -41,7 +41,7 @@ export default function EditBackgroundModal({
             <FontAwesomeIcon icon={faX} className="text-lg" />
           </button>
         </header>
-        <section className="grid grid-cols-3 gap-5 p-5">
+        <section className="grid grid-cols-3 gap-5 p-8">
           {userBackground.map((data) => (
             <BackgroundCard
               key={data.name}
@@ -87,9 +87,9 @@ function BackgroundCard({
           />
         </div>
         {/* content */}
-        <div className="p-3 bg-neutral-100 min-h-20 space-y-2">
+        <div className="p-3 bg-neutral-800 min-h-20 space-y-2">
           <p>{label}</p>
-          <p className="text-sm text-neutral-600">{description}</p>
+          <p className="text-sm text-neutral-400">{description}</p>
           <div className="flex gap-1 items-center flex-wrap">
             {tags.map((tag) => (
               <span
