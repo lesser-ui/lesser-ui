@@ -10,7 +10,7 @@ Disallow: /auth/*
 Disallow: */edit
 Disallow: element/create
 Disallow: /login
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: ${process.env.APP_URL || "http://localhost:3000"}/sitemap.xml
     `.trim()
     : `
 User-agent: *
