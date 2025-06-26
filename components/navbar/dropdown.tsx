@@ -4,7 +4,7 @@ import { DropdownElement } from "./dropdown-element";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import gsap from "gsap";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 
 export default function NavbarDropDown() {
@@ -39,7 +39,7 @@ export default function NavbarDropDown() {
   }, [pathname]);
 
   // link 요소 애니메이션
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (show && gridRef.current) {
       // grid box의 childrens (list items)
       const items = Array.from(gridRef.current.children);
@@ -70,7 +70,7 @@ export default function NavbarDropDown() {
         className="ml-5 flex gap-1 items-center font-semibold cursor-pointer"
       >
         <FontAwesomeIcon icon={show ? faAngleUp : faAngleDown} />
-        <span>{"Elements"}</span>
+        <span>UI 블럭</span>
       </div>
 
       {show && (

@@ -20,15 +20,15 @@ export const SANITIZE_OPTIONS = {
 
 /** menu nav item */
 export const menuItems = [
-  { icon: faBook, label: "All", link: null },
-  { icon: faSquareCaretRight, label: "Buttons", link: "buttons" },
-  { icon: faSquareCheck, label: "Check Boxes", link: "check-boxes" },
-  { icon: faToggleOn, label: "Toggle Switches", link: "toggle-switches" },
-  { icon: faFile, label: "Cards", link: "card" },
-  { icon: faSpinner, label: "Loaders", link: "loaders" },
-  { icon: faKeyboard, label: "Inputs", link: "inputs" },
-  { icon: faCircleDot, label: "Radio Buttons", link: "radio-buttons" },
-  { icon: faCircleInfo, label: "Tooltips", link: "tooltips" },
+  { icon: faBook, label: "전체", link: null },
+  { icon: faSquareCaretRight, label: "버튼", link: "buttons" },
+  { icon: faSquareCheck, label: "체크박스", link: "check-boxes" },
+  { icon: faToggleOn, label: "스위치", link: "toggle-switches" },
+  { icon: faFile, label: "카드", link: "card" },
+  { icon: faSpinner, label: "로딩 스피너", link: "loaders" },
+  { icon: faKeyboard, label: "인풋", link: "inputs" },
+  { icon: faCircleDot, label: "라디오 버튼", link: "radio-buttons" },
+  { icon: faCircleInfo, label: "툴팁", link: "tooltips" },
 ] as const;
 
 /** tag item과 icon */
